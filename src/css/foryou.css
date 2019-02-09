@@ -1,0 +1,48 @@
+.foryou__wrap h2 {
+  margin-top: f1(50); }
+
+.foryou__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: f1(50); }
+
+.foryou__item {
+  margin-bottom: f1(20);
+  -ms-flex-preferred-size: 300px;
+  flex-basis: 300px; }
+  .foryou__item p {
+    font-size: f1(24);
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: f1(20); }
+
+.foryou__bottom {
+  background-color: #0e0e30;
+  padding: f2(50, 0); }
+  .foryou__bottom p {
+    font-family: "Playfair Display SC";
+    font-size: f1(24);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 41.67px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    max-width: 673px;
+    margin: 0 auto; }
+
+.btn__foryou a {
+  margin: 0 auto;
+  margin-top: f1(50);
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+  .btn__foryou a:hover {
+    background: white;
+    color: black; }

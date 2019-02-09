@@ -1,0 +1,54 @@
+.foryou{
+
+    &__wrap{
+        h2{
+            margin-top: f1(50);
+        }
+    }
+    &__list{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-bottom: f1(50);
+    }
+    &__item{
+        margin-bottom: f1(20);
+        flex-basis: 300px;
+
+        p{
+            font-size: f1(24);
+            text-align: center;
+            width: 95%;
+            margin: 0 auto;
+            margin-top: f1(20);
+        }
+    }
+    &__bottom{
+        background-color: #0e0e30;
+        padding: f2(50,0);
+
+        p{
+            font-family: "Playfair Display SC";
+            font-size: f1(24);
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            line-height: 41.67px;
+            text-transform: uppercase;
+            letter-spacing: 1.8px;
+            max-width: 673px;
+            margin: 0 auto;
+        }
+
+    }
+}
+.btn__foryou a{
+    margin: 0 auto;
+    margin-top: f1(50);
+    transition: all .3s;
+
+    &:hover{
+        background: white;
+        color: black;
+    }
+}

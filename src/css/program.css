@@ -1,0 +1,95 @@
+.program {
+  background-color: #e8e8e8; }
+  .program__wrap {
+    padding: f2(50, 0); }
+  .program__top {
+    background: white;
+    position: relative;
+    z-index: 9999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 70%;
+    margin: 0 auto; }
+    @media screen and (max-width: 1300px) {
+      .program__top {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
+    @media screen and (max-width: 900px) {
+      .program__top {
+        width: 100%; } }
+  .program__left {
+    width: 60%;
+    padding-left: f1(40);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+    background: white; }
+    @media screen and (max-width: 1300px) {
+      .program__left {
+        width: 100%;
+        padding-left: f1(5); } }
+    @media screen and (max-width: 1300px) {
+      .program__left ul {
+        margin: f2(50, 0); } }
+    .program__left ul li {
+      margin-bottom: f1(20);
+      font-size: f1(30);
+      font-weight: bold; }
+      @media screen and (max-width: 1300px) {
+        .program__left ul li {
+          font-size: 1.5rem; } }
+  .program__right {
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 9999;
+    background: white; }
+    @media screen and (max-width: 1300px) {
+      .program__right {
+        width: 100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; } }
+  .program__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: f1(50);
+    background-color: #0e0e30;
+    padding: f2(50, 0); }
+    .program__bottom p {
+      font-family: "Playfair Display SC";
+      font-size: 1.5rem;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      line-height: 41.67px;
+      text-transform: uppercase;
+      letter-spacing: 1.8px;
+      max-width: 673px;
+      margin: 0 auto; }

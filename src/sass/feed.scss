@@ -1,0 +1,29 @@
+.feed{
+    padding: f2(50,0);
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__item{
+        display: flex;
+        align-items: center;
+        font-size: f1(30);
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: f1(30);
+        @media screen and (max-width:620px) {
+            flex-direction: column;
+            font-size: f1(20);
+        }
+
+        a{
+            color: black;
+            margin-left: f1(20);
+            font-weight: bold;
+        }
+    }
+}

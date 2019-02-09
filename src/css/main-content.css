@@ -1,0 +1,127 @@
+.main {
+  background: url(../img/header/olesya.png) no-repeat right/contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  @media screen and (max-width: 1000px) {
+    .main {
+      background: #e8e8e8;
+      padding: 0; } }
+  .main__wrap {
+    width: 70%;
+    margin-left: f1(40);
+    margin-top: f1(50);
+    margin-bottom: f1(50); }
+    @media screen and (max-width: 1000px) {
+      .main__wrap {
+        margin: 50px auto; } }
+    @media screen and (max-width: 600px) {
+      .main__wrap {
+        width: 90%; } }
+  .main__top h1 {
+    font-family: "Playfair Display";
+    font-size: f1(125);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3.13px;
+    line-height: 110px;
+    text-align: center; }
+    @media screen and (max-width: 768px) {
+      .main__top h1 {
+        font-size: 3.8125rem;
+        line-height: normal;
+        letter-spacing: normal; } }
+  .main__middle {
+    margin-bottom: f1(50); }
+    .main__middle p:first-child {
+      color: #0e0e30;
+      font-size: f1(42);
+      font-weight: bold;
+      text-align: center;
+      max-width: 800px;
+      margin-top: f1(40);
+      margin-bottom: f1(40);
+      margin-left: auto;
+      margin-right: auto; }
+      @media screen and (max-width: 768px) {
+        .main__middle p:first-child {
+          font-size: 2rem;
+          line-height: normal;
+          letter-spacing: normal; } }
+      @media screen and (max-width: 420px) {
+        .main__middle p:first-child {
+          font-size: 1.5rem; } }
+      .main__middle p:first-child span {
+        text-transform: uppercase;
+        color: #ffb920; }
+    .main__middle p:nth-child(2) {
+      font-family: "Playfair Display";
+      text-transform: uppercase;
+      background: #ffb920;
+      font-weight: bold;
+      text-align: center;
+      font-size: f1(25);
+      width: 50%;
+      padding: f1(10);
+      padding: 10px;
+      margin: 0 auto;
+      margin-bottom: f1(30);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      @media screen and (max-width: 768px) {
+        .main__middle p:nth-child(2) {
+          width: 100%; } }
+    .main__middle p:nth-child(3) {
+      font-family: "Playfair Display";
+      text-transform: uppercase;
+      font-size: f1(25);
+      width: 50%;
+      padding: f1(10);
+      margin: 0 auto;
+      background-color: #0e0e32;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      @media screen and (max-width: 768px) {
+        .main__middle p:nth-child(3) {
+          width: 100%; } }
+  .main__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .main__bottom-start {
+      font-size: f1(30);
+      font-variant: small-caps;
+      letter-spacing: 1.43px;
+      font-weight: bold;
+      margin-bottom: f1(10);
+      text-align: center; }
+      @media screen and (max-width: 768px) {
+        .main__bottom-start {
+          font-size: 1.5rem; } }

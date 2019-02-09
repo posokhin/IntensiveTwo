@@ -1,0 +1,74 @@
+.bonus {
+  background: #0e0e31;
+  padding: f2(50, 0); }
+  .bonus__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto; }
+    @media screen and (max-width: 940px) {
+      .bonus__wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%; } }
+  .bonus__left {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .bonus__left img {
+      height: 220px; }
+      @media screen and (max-width: 500px) {
+        .bonus__left img {
+          height: 170px;
+          width: 200px; } }
+    @media screen and (max-width: 940px) {
+      .bonus__left {
+        margin-bottom: f1(30);
+        margin-right: f1(70);
+        width: 100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; } }
+  .bonus__right {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: f1(30);
+    font-weight: bold; }
+    @media screen and (max-width: 940px) {
+      .bonus__right {
+        width: 100%; } }
+    @media screen and (max-width: 540px) {
+      .bonus__right {
+        font-size: 1.5rem; } }
+    .bonus__right span {
+      color: #ffb920;
+      margin-bottom: f1(20); }
+    .bonus__right p {
+      color: white; }

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Landing
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+        link(rel="stylesheet", href="style.css")
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        script(src="js/slick.min.js")
+        script(src="js/main.js")
+    body
+        .wrapper
+            .header
+                .container
+                    .header__wrap
+                        .header__left
+                            .header__logo
+                                img(src="img/header/logo.png", alt="")
+                            p.header__title Олеся Лупак
+                        .header__right  
+                            nav.header__nav
+                                ul.header__list 
+                                    li.header__item
+                                        a.header__link(href="#wait") Программа
+                                    li.header__item
+                                        a.header__link(href="#author") Автор
+                                    li.header__item
+                                        a.header__link(href="#reviews") Отзывы
+                                    li.header__item
+                                        a.header__link(href="#pack") Стоимость
+                                    li.header__item
+                                        a.header__link(href="#feed") Контакты
+                        .header__mobile
+                            .header__btn
+                                span.span.span1
+                                span.span.span2
+                                span.span.span3
+                                span.span.span4
+            section.main 
+                .main__wrap  
+                    .main__top
+                        h1 Прямо в цель
+                    .main__middle
+                        p Самый эффективный <span>online</span> интенсив в области психологии личности
+                        p только самые результативые техники
+                        p 7 дней/7 встреч  для глубокой проработки!
+                    .main__bottom
+                        .main__bottom-start
+                            p Старт 2-ого потока: 18 марта 2019г.
+                        .btn
+                            a(href="") Забронировать Место
+            section.bonus
+                .container
+                    .bonus__wrap
+                        .bonus__left
+                            img(src="img/bonus/1.png", alt="")
+                        .bonus__right   
+                            span каждому участнику подарок:
+                            p вебинар «после Каких путешествий увеличивается ваш доход»
+            section.want
+                .container
+                    .want__wrap
+                        h2 Если вы хотите:
+                        ul.want__list
+                            li.want__item
+                                .want__inner
+                                    .want__inner-left
+                                        ul
+                                            li 1.  Определить свои истинные желания и понять, что сделает вас счастливым в разных областях вашей жизни.
+                                            li 2.  Понять, что у вас уже есть для достижения вашей цели и как её достичь.
+                                            li 3.  Понять, как себя поддерживать на пути достижения цели и как не терять мотивацию.
+                                    .want__inner-right
+                                        img(src="img/want/1.png", alt="")
+                                .want__back
+                            li.want__item
+                                .want__inner
+                                    .want__inner-left.want__inner-left-order
+                                        ul
+                                            li 4.  Узнать Как не перегореть на путь к своей цели.
+                                            li 5.  Как организовать своё время.
+                                            li 6.  Найти свой личный рецепт получения дохода для воплощения в жизнь своих желаний. 
+                                    .want__inner-right.want__inner-right-flexstart
+                                        img(src="img/want/2.png", alt="")
+                                .want__back.want__back-order
+            section.banner__one
+                p Современный человек часто не знает, чего хочет и спрашивает у других, как лучше, но другие не знают о вас ничего и их советы чаще всего совершенно не соответствуют того, что лично для вас будет правильно и хорошо. 
+            section.foryou
+                .container
+                    .foryou__wrap
+                        h2 Этот интенсив для вас, если:
+                    .foryou__top
+                        ul.foryou__list
+                            li.foryou__item
+                                foryou__img
+                                    img(src="img/foryou/1.png", alt="")
+                                p Вы бросаете начатое на полпут и никак не придети к цели
+                            li.foryou__item
+                                foryou__img
+                                    img(src="img/foryou/2.png", alt="")
+                                p Не уверены, чего именно хотите в этой жизни и ваши ли это желания
+                            li.foryou__item
+                                foryou__img
+                                    img(src="img/foryou/3.png", alt="")
+                                p Боитесь начать или не знаете, какие шаги нужны для того, чтобы прийти к цели. 
+                .foryou__bottom
+                    .container
+                        p Пора действовать, а не просто смотреть как кто-то, а не вы покоряет новые вершины!
+                        .btn.btn__foryou
+                            a(href="") Пора действовать!
+            section.wait#wait
+                .container
+                    .wait__wrap
+                        .wait__top
+                            h2 Что вас ждет:
+                            ul.wait__list
+                                li.wait__item
+                                    .wait__picture
+                                        <i class="fas fa-check-square"></i>
+                                    p Вы поймете свои истинные желания 
+                                li.wait__item
+                                    .wait__picture
+                                        <i class="fas fa-check-square"></i>
+                                    p Вы поймете, что делает вас счастливым 
+                                li.wait__item
+                                    .wait__picture
+                                        <i class="fas fa-check-square"></i>
+                                    p Вы поймете как достичь своей цели и что для этого нужно
+                                li.wait__item
+                                    .wait__picture
+                                        <i class="fas fa-check-square"></i>
+                                    p Вы научитесь, быть в ресурсе и организовывать своё время.
+                                li.wait__item
+                                    .wait__picture
+                                        <i class="fas fa-check-square"></i>
+                                    p Вы найдете свой личный рецепт получения денег
+                                li.wait__item
+                                    .wait__picture
+                                        <i class="fas fa-check-square"></i>
+                                    p Вы узнаете, как себя поддерживать и не терять мотивацию
+                        .wait__bottom
+                            h2 Чего не будет на интенсиве:
+                            ul.wait__list
+                                li.wait__item
+                                    .wait__picture.wait__picture-bottom
+                                        <i class="fas fa-ban"></i>
+                                    p Волшебных пинков 
+                                li.wait__item
+                                    .wait__picture.wait__picture-bottom
+                                        <i class="fas fa-ban"></i>
+                                    p Навязанного виденья того, как вы должны жить
+                                li.wait__item
+                                    .wait__picture.wait__picture-bottom
+                                        <i class="fas fa-ban"></i>
+                                    p Тирании и неуважительного отношения
+            section.program
+                .container
+                    .program__wrap
+                        h2 программа:
+                        .program__top
+                            .program__left
+                                ul
+                                    li 1. Разблокировка желаний.
+                                    li 2. Выбор значимой цели.
+                                    li 3. Работа со страхами.
+                                    li 4. План действий.
+                                    li 5. Самоподдержка и мотивация
+                                    li 6. Ваш личный рецепт получения денег 
+                                    li 7. Открытие денежного потока.
+                            .program__right
+                                img(src="img/program/1.png", alt="")
+                            .want__back
+                .program__bottom
+                    p «Судьба уступает человеку, который знает куда идёт!»
+            section.author#author
+                .container
+                    .author__wrap
+                        h2 об авторе
+                        .author__top
+                            .author__left 
+                                .author__img
+                                    img(src="img/author/1.png", alt="")
+                                    .want__back.want__back-author
+                            .author__right
+                                p Я, Олеся Лупак. Психолог и коуч с двумя высшими образованиями, сейчас получаю третье. За последние 10 лет, я прошла более 20 обучений в разных направлениях психологии и психотерапии. Работаю с клиентами из 18 стран мира. В практике применяю техники, упражнения из 7 направлений психологии и психотерапии. Знаю не понаслышке! Можно пройти курс длиной в два месяца и перегрузить себя знаниями, которые не меняют жизнь к лучшему, а можно всего за 7 дней поработать самыми классными техниками и увидеть отличный результат. Как поступить – выбор за вами. 
+                        .author__bottom
+                            p Точно знаю, что информация без практики мертва!
+                            .btn
+                                a(href="") Записаться!
+            section.how
+                .container
+                    .how__wrap
+                        h2 Как это будет?
+                        ul
+                            li 
+                                span
+                                    img(src="img/how/1.png", alt="")
+                                p 7 дней online вебинаров
+                            li 
+                                span
+                                    img(src="img/how/1.png", alt="")
+                                p Практические встречи по 1-1,5 часа на обучающей плаформе
+                            li 
+                                span
+                                    img(src="img/how/1.png", alt="")
+                                p Эффективные методики и различные техники
+                            li 
+                                span
+                                    img(src="img/how/1.png", alt="")
+                                p Закрытая ЧАТ-ГРУППА для обсуждений, поддержки друг друга.
+                            li 
+                                span
+                                    img(src="img/how/1.png", alt="")
+                                p Обратная связь от Олеси Лупак в ЧАТ-ГРУППЕ
+            section.want
+                .container
+                    .want__wrap
+                        h2 Ваша жизнь после интенсива:
+                        ul.want__list
+                            li.want__item
+                                .want__inner
+                                    .want__inner-left
+                                        ul
+                                            li 
+                                                span    
+                                                    img(src="img/after/crown.png", alt="")
+                                                p Увидите свои долгосрочные и краткосрочные цели
+                                            li 
+                                                span    
+                                                    img(src="img/after/crown.png", alt="")
+                                                p Узнаете в какой области сможете зарабатывать желаемые деньги
+                                            li 
+                                                span    
+                                                    img(src="img/after/crown.png", alt="")
+                                                p Увеличите личную эффективность
+                                            li 
+                                                span    
+                                                    img(src="img/after/crown.png", alt="")
+                                                p Улучшите качество своей жизни
+                                    .want__inner-right
+                                        img(src="img/after/1.png", alt="")
+                                .want__back
+                            li.want__item
+                                .want__inner
+                                    .want__inner-left.want__inner-left-order
+                                        ul
+                                            li 
+                                                span    
+                                                    img(src="img/after/crown.png", alt="")
+                                                p Вы поймете себя
+                                            li 
+                                                span    
+                                                    img(src="img/after/crown.png", alt="")
+                                                p Решите, что Вам мешает жить так, как хочется
+                                            li 
+                                                span    
+                                                    img(src="img/after/crown.png", alt="")
+                                                p Узнаете чего желаете на самом деле
+                                            li 
+                                                span    
+                                                    img(src="img/after/crown.png", alt="")
+                                                p Поймете как к этому прийти
+                                            li 
+                                                span    
+                                                    img(src="img/after/crown.png", alt="")
+                                                p Обретете самоподдержку и мотивацию
+                                    .want__inner-right.want__inner-right-flexstart
+                                        img(src="img/after/2.png", alt="")
+                                .want__back.want__back-order
+                        .btn
+                            a(href="") Записаться!
+            section.reviews#reviews
+                .container
+                    .reviews__wrap
+                        h2 отзывы
+                        ul.reviews__list
+                            li.reviews__item
+                                .reviews__item-left
+                                    .reviews__img
+                                        img(src="img/reviews/1.png", alt="")
+                                    .reviews__user
+                                        a(href="") @toyforkidss
+                                .reviews__item-right
+                                    p Олеся, привет! Этот просто БОМБА! Я так долго откладывала и не понимала. Как и что мне делать с целями. Куда писать, как писать. А тут прошла твой интенсив «Прямо в цель» и ахнула. Это круто! Все четко и по делу, прям как на наших с тобой консультациях. Оказывается все даться во вовремя. И сейчас я готова вести ежедневник, в котором буду прокачивать себя по твоей методике. Только адаптирую под гиппертима-режим «Делай много одновременно». Спасибо тебе огромное за такой бомбецкий интенсив! Жду следующий твой продкут, на который обязательно приду. Ты супер,мотиватор-помогатор!!!!
+                            li.reviews__item
+                                .reviews__item-left
+                                    .reviews__img
+                                        img(src="img/reviews/1.png", alt="")
+                                    .reviews__user
+                                        a(href="") @toyforkidss
+                                .reviews__item-right
+                                    p Олеся, привет! Этот просто БОМБА! Я так долго откладывала и не понимала. Как и что мне делать с целями. Куда писать, как писать. А тут прошла твой интенсив «Прямо в цель» и ахнула. Это круто! Все четко и по делу, прям как на наших с тобой консультациях. Оказывается все даться во вовремя. И сейчас я готова вести ежедневник, в котором буду прокачивать себя по твоей методике. Только адаптирую под гиппертима-режим «Делай много одновременно». Спасибо тебе огромное за такой бомбецкий интенсив! Жду следующий твой продкут, на который обязательно приду. Ты супер,мотиватор-помогатор!!!!
+                            li.reviews__item
+                                .reviews__item-left
+                                    .reviews__img
+                                        img(src="img/reviews/1.png", alt="")
+                                    .reviews__user
+                                        a(href="") @toyforkidss
+                                .reviews__item-right
+                                    p Олеся, привет! Этот просто БОМБА! Я так долго откладывала и не понимала. Как и что мне делать с целями. Куда писать, как писать. А тут прошла твой интенсив «Прямо в цель» и ахнула. Это круто! Все четко и по делу, прям как на наших с тобой консультациях. Оказывается все даться во вовремя. И сейчас я готова вести ежедневник, в котором буду прокачивать себя по твоей методике. Только адаптирую под гиппертима-режим «Делай много одновременно». Спасибо тебе огромное за такой бомбецкий интенсив! Жду следующий твой продкут, на который обязательно приду. Ты супер,мотиватор-помогатор!!!!
+                            li.reviews__item
+                                .reviews__item-left
+                                    .reviews__img
+                                        img(src="img/reviews/1.png", alt="")
+                                    .reviews__user
+                                        a(href="") @toyforkidss
+                                .reviews__item-right
+                                    p Олеся, привет! Этот просто БОМБА! Я так долго откладывала и не понимала. Как и что мне делать с целями. Куда писать, как писать. А тут прошла твой интенсив «Прямо в цель» и ахнула. Это круто! Все четко и по делу, прям как на наших с тобой консультациях. Оказывается все даться во вовремя. И сейчас я готова вести ежедневник, в котором буду прокачивать себя по твоей методике. Только адаптирую под гиппертима-режим «Делай много одновременно». Спасибо тебе огромное за такой бомбецкий интенсив! Жду следующий твой продкут, на который обязательно приду. Ты супер,мотиватор-помогатор!!!!
+                            li.reviews__item
+                                .reviews__item-left
+                                    .reviews__img
+                                        img(src="img/reviews/1.png", alt="")
+                                    .reviews__user
+                                        a(href="") @toyforkidss
+                                .reviews__item-right
+                                    p Олеся, привет! Этот просто БОМБА! Я так долго откладывала и не понимала. Как и что мне делать с целями. Куда писать, как писать. А тут прошла твой интенсив «Прямо в цель» и ахнула. Это круто! Все четко и по делу, прям как на наших с тобой консультациях. Оказывается все даться во вовремя. И сейчас я готова вести ежедневник, в котором буду прокачивать себя по твоей методике. Только адаптирую под гиппертима-режим «Делай много одновременно». Спасибо тебе огромное за такой бомбецкий интенсив! Жду следующий твой продкут, на который обязательно приду. Ты супер,мотиватор-помогатор!!!! 
+            section.pack#pack
+                .container
+                    .pack__wrap
+                        h2  3 пакета
+                        ul.pack__list
+                            li.pack__item
+                                h3 Тариф «БАЗОВЫЙ»
+                                .pack__item-price
+                                   .pack__item-price-left
+                                        p 2500 руб.
+                                   .pack__item-price-right 
+                                        p.not 5000 руб.    
+                                        p 2 консультации
+                                ul.pack__item-list
+                                    li.pack__item-list-item 
+                                        p Проработка страхов
+                                    li.pack__item-list-item 
+                                        p Поиск целей
+                                    li.pack__item-list-item  
+                                        p Разрушение стерeотипов
+                                    li.pack__item-list-item 
+                                        p Пошаговый план действий
+                                    li.pack__item-list-item 
+                                        p 7 Вебинаров с проработкой
+                                    li.pack__item-list-item.not 
+                                        p Вебинары ВОПРОС-ОТВЕТ 
+                                    li.pack__item-list-item.not 
+                                        p Общение в чат-группе с участниками
+                                    li.pack__item-list-item.not 
+                                        p Обратная связь в чат-группе от Олеси Лупак
+                                    li.pack__item-list-item.pack__item-list-item-present.not
+                                        img(src="img/pack/2.png", alt="")
+                                        p ОНЛАЙН Вебинар по поиску предназначениям
+                                    li.pack__item-list-item.pack__item-list-item-present 
+                                        img(src="img/pack/1.png", alt="")
+                                        p Вебинар «после каких путешествий увеличивается ваш доход»
+                                <div class="price__form">
+                                    <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                        <input type="hidden" name="receiver" value="410016015199527">
+                                        <input type="hidden" name="formcomment" value="Курс прямо в цель">
+                                        <input type="hidden" name="short-dest" value="Курс прямо в цель">
+                                        <input type="hidden" name="label" value="$order_id">
+                                        <input type="hidden" name="quickpay-form" value="shop">
+                                        <input type="hidden" name="targets" value="Оплата курса - прямо в цель">
+                                        <input type="hidden" name="sum" value="2500" data-type="number">
+                                        <input type="hidden" name="comment" value="">
+                                        <input type="hidden" name="need-fio" value="true">
+                                        <input type="hidden" name="need-email" value="true">
+                                        <input type="hidden" name="need-phone" value="true">
+                                        <input type="hidden" name="need-address" value="false">
+                                        <input type="hidden" name="successURL" value="">
+                                        <label class="price-label"><input type="hidden" name="paymentType" value="PC"></label>
+                                        <label class="price-label"><input type="hidden" name="paymentType" value="AC"></label>
+                                        <input type="submit" class="price__btn" value="Записаться">
+                                    </form>
+                                </div>
+                            li.pack__item
+                                h3 Тариф «Куратор»
+                                .pack__item-price
+                                   .pack__item-price-left
+                                        p 3450 руб.
+                                   .pack__item-price-right 
+                                        p.not 10000 руб.   
+                                        p 4 Консультации
+                                ul.pack__item-list
+                                    li.pack__item-list-item 
+                                        p Проработка страхов
+                                    li.pack__item-list-item 
+                                        p Поиск целей
+                                    li.pack__item-list-item 
+                                        p Разрушение стериотипов
+                                    li.pack__item-list-item 
+                                        p Пошаговый план действий
+                                    li.pack__item-list-item 
+                                        p 7 Вебинаров с проработкой
+                                    li.pack__item-list-item 
+                                        p Обратная связь с Психологом-Куратором
+                                    li.pack__item-list-item 
+                                        p Общение в чат-группе с участниками
+                                    li.pack__item-list-item.not 
+                                        p Вебинары ВОПРОС-ОТВЕТ
+                                    li.pack__item-list-item.not 
+                                        p Обратная связь в чат-группе от Олеси Лупак
+                                    li.pack__item-list-item.pack__item-list-item-present.not
+                                        img(src="img/pack/2.png", alt="")
+                                        p ОНЛАЙН Вебинар по поиску предназначениям
+                                    li.pack__item-list-item.pack__item-list-item-present 
+                                        img(src="img/pack/1.png", alt="")
+                                        p Вебинар «после каких путешествий увеличивается ваш доход»
+                                <div class="price__form">
+                                    <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                        <input type="hidden" name="receiver" value="410016015199527">
+                                        <input type="hidden" name="formcomment" value="Курс прямо в цель">
+                                        <input type="hidden" name="short-dest" value="Курс прямо в цель">
+                                        <input type="hidden" name="label" value="$order_id">
+                                        <input type="hidden" name="quickpay-form" value="shop">
+                                        <input type="hidden" name="targets" value="Оплата курса - прямо в цель">
+                                        <input type="hidden" name="sum" value="3450" data-type="number">
+                                        <input type="hidden" name="comment" value="">
+                                        <input type="hidden" name="need-fio" value="true">
+                                        <input type="hidden" name="need-email" value="true">
+                                        <input type="hidden" name="need-phone" value="true">
+                                        <input type="hidden" name="need-address" value="false">
+                                        <input type="hidden" name="successURL" value="">
+                                        <label class="price-label"><input type="hidden" name="paymentType" value="PC"></label>
+                                        <label class="price-label"><input type="hidden" name="paymentType" value="AC"></label>
+                                        <input type="submit" class="price__btn" value="Записаться">
+                                    </form>
+                                </div>
+                            li.pack__item
+                                h3 Тариф «На Cвязи»
+                                .pack__item-price
+                                   .pack__item-price-left
+                                        p 4900 руб. 
+                                   .pack__item-price-right   
+                                        p.not 17500 руб.   
+                                        p 7 Консультации
+                                .pack__item-price-limit
+                                    p КОЛИЧЕСТВО МЕСТ ОГРАНИЧЕННО
+                                ul.pack__item-list
+                                    li.pack__item-list-item 
+                                        p Проработка страхов
+                                    li.pack__item-list-item 
+                                        p Поиск целей
+                                    li.pack__item-list-item 
+                                        p Разрушение стериотипов
+                                    li.pack__item-list-item 
+                                        p Пошаговый план действий
+                                    li.pack__item-list-item 
+                                        p 7 ОНЛАЙН Вебинаров с проработкой
+                                    li.pack__item-list-item 
+                                        p Ежедневыне ОНЛАЙН встречи
+                                    li.pack__item-list-item 
+                                        p Вебинары ВОПРОС-ОТВЕТ
+                                    li.pack__item-list-item 
+                                        p Общение в чат-группе с участниками
+                                    li.pack__item-list-item 
+                                        p Обратная связь в чат-группе от Олеси Лупак
+                                    li.pack__item-list-item.pack__item-list-item-present
+                                        img(src="img/pack/1.png", alt="")
+                                        p ОНЛАЙН Вебинар по поиску предназначения
+                                    li.pack__item-list-item.pack__item-list-item-present 
+                                        img(src="img/pack/1.png", alt="")
+                                        p Вебинар «после каких путешествий увеличивается ваш доход»
+                                <div class="price__form">
+                                    <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+                                        <input type="hidden" name="receiver" value="410016015199527">
+                                        <input type="hidden" name="formcomment" value="Курс прямо в цель">
+                                        <input type="hidden" name="short-dest" value="Курс прямо в цель">
+                                        <input type="hidden" name="label" value="$order_id">
+                                        <input type="hidden" name="quickpay-form" value="shop">
+                                        <input type="hidden" name="targets" value="Оплата курса - прямо в цель">
+                                        <input type="hidden" name="sum" value="4900" data-type="number">
+                                        <input type="hidden" name="comment" value="">
+                                        <input type="hidden" name="need-fio" value="true">
+                                        <input type="hidden" name="need-email" value="true">
+                                        <input type="hidden" name="need-phone" value="true">
+                                        <input type="hidden" name="need-address" value="false">
+                                        <input type="hidden" name="successURL" value="">
+                                        <label class="price-label"><input type="hidden" name="paymentType" value="PC"></label>
+                                        <label class="price-label"><input type="hidden" name="paymentType" value="AC"></label>
+                                        <input type="submit" class="price__btn" value="Записаться">
+                                    </form>
+                                </div>
+            section.feed#feed
+                .container
+                    .feed__wrap
+                         h2 Если у вас остались вопросы:
+                         ul.feed__list
+                             li.feed__item
+                                span instagram ассистента:
+                                a(href="https://www.instagram.com/assolesyalupak/") @assolesyalupak
+                             li.feed__item
+                                span instagram автора:
+                                a(href="https://www.instagram.com/olesyalupak/") @olesyalupak
+                             li.feed__item
+                                span E-mail:
+                                a(href="mailto:assolesyalupak@gmail.com") assolesyalupak@gmail.com
+        footer.footer
+            .container
+                .footer__wrap
+                    .footer__logo
+                        img(src="img/header/logo.png", alt="")
+                    p Олеся Лупак
+                    .footer__copy
+                        p все права защищены © 2019 г.
+

@@ -1,0 +1,93 @@
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%; }
+  .btn a {
+    width: 524px;
+    height: 98px;
+    border-radius: 17px;
+    background-color: #ffb920;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: f1(30);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    text-align: center; }
+    @media screen and (max-width: 768px) {
+      .btn a {
+        width: 100%;
+        height: 70px; } }
+    .btn a:hover {
+      background: #0e0e30;
+      color: white; }
+
+.header__mobile {
+  display: none;
+  width: 50%;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+  @media screen and (max-width: 900px) {
+    .header__mobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
+
+.header__btn {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+  .header__btn span {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: white;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    .header__btn span.span1 {
+      top: 0px; }
+    .header__btn span.span2 {
+      top: 13px; }
+    .header__btn span.span3 {
+      top: 13px; }
+    .header__btn span.span4 {
+      bottom: 0px; }
+
+.span2Animate {
+  -webkit-transform: translateX(-50px);
+  transform: translateX(-50px);
+  background: transparent !important; }
+
+.span3Animate {
+  -webkit-transform: translateX(50px);
+  transform: translateX(50px);
+  background: transparent !important; }
+
+.span1Animate {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 5%;
+  transform-origin: 5%; }
+
+.span4Animate {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 5%;
+  transform-origin: 5%; }

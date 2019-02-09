@@ -1,0 +1,124 @@
+.main{
+    background: url(../img/header/olesya.png) no-repeat right/contain;
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width:1000px) {
+        background: #e8e8e8;
+        padding: 0;
+    }
+    &__wrap{
+        width: 70%;
+        margin-left: f1(40);
+        margin-top: f1(50);
+        margin-bottom: f1(50);
+
+        @media screen and (max-width:1000px) {
+            margin: 50px auto;
+        }
+        @media screen and (max-width:600px) {
+            width: 90%;
+        }
+    }
+    &__top{
+        h1{
+            font-family: "Playfair Display";
+            font-size: f1(125);
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 3.13px;
+            line-height: 110px;
+            text-align: center;
+            @media screen and (max-width:768px) {
+                font-size: 3.8125rem;
+                line-height: normal;
+                letter-spacing: normal;
+            }
+        }
+    }
+    &__middle{
+        margin-bottom: f1(50);
+        p{
+            &:first-child{
+                color: #0e0e30;
+                font-size: f1(42);
+                font-weight: bold;
+                text-align: center;
+                max-width: 800px;
+                margin-top: f1(40);
+                margin-bottom: f1(40);
+                margin-left: auto;
+                margin-right: auto;
+                @media screen and (max-width:768px) {
+                    font-size: 2rem;
+                    line-height: normal;
+                    letter-spacing: normal;
+                }
+                @media screen and (max-width:420px) {
+                    font-size: 1.5rem;
+                }
+
+                span{
+                    text-transform: uppercase;
+                    color: #ffb920;
+                }
+            }
+            
+            &:nth-child(2){
+                font-family: "Playfair Display";
+                text-transform: uppercase;
+                background: #ffb920;
+                font-weight: bold;
+                text-align: center;
+                font-size: f1(25);
+                width: 50%;
+                padding: f1(10);
+                padding: 10px;
+                margin: 0 auto;
+                margin-bottom: f1(30);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                @media screen and (max-width:768px) {
+                    width: 100%;
+                }
+            }
+            &:nth-child(3){
+                font-family: "Playfair Display";
+                text-transform: uppercase;
+                font-size: f1(25);
+                width: 50%;
+                padding: f1(10);
+                margin: 0 auto;
+                background-color: #0e0e32;
+                color: white;
+                font-weight: bold;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                @media screen and (max-width:768px) {
+                    width: 100%;
+                }
+            }
+            
+        }
+    }
+    &__bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-start{
+            font-size: f1(30);
+            font-variant: small-caps;
+            letter-spacing: 1.43px;
+            font-weight: bold;
+            margin-bottom: f1(10);
+            text-align: center;
+            @media screen and (max-width:768px) {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

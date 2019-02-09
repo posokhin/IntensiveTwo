@@ -1,0 +1,33 @@
+.footer{
+    background: #0e0e30;
+    color: white;
+    padding: f2(20,0);
+    &__wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            font-size: f1(30);
+            font-weight: bold;
+            text-align: center;
+            margin: f2(10,0);
+            color: #ffb920;
+            text-transform: uppercase;
+            font-family: "Playfair Display SC";
+        }
+    }
+    &__logo{
+        width: 10%;
+    }
+    
+    &__copy{
+        p{
+            color: white;
+            font-size: f1(20);
+            font-family: 'Roboto';
+        }
+    }
+
+}

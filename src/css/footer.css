@@ -1,0 +1,32 @@
+.footer {
+  background: #0e0e30;
+  color: white;
+  padding: f2(20, 0); }
+  .footer__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .footer__wrap p {
+      font-size: f1(30);
+      font-weight: bold;
+      text-align: center;
+      margin: f2(10, 0);
+      color: #ffb920;
+      text-transform: uppercase;
+      font-family: "Playfair Display SC"; }
+  .footer__logo {
+    width: 10%; }
+  .footer__copy p {
+    color: white;
+    font-size: f1(20);
+    font-family: 'Roboto'; }

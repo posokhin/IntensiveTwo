@@ -1,0 +1,50 @@
+.wait {
+  background-color: #ffb920; }
+  .wait__wrap {
+    padding: f2(50, 0); }
+  .wait__top {
+    margin-bottom: f1(50); }
+  .wait__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .wait__item {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-preferred-size: 400px;
+    flex-basis: 400px;
+    height: 170px;
+    margin-bottom: f1(50);
+    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.31);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.31);
+    background-color: #ffffff; }
+    .wait__item p {
+      font-size: f1(24);
+      font-weight: bold;
+      line-height: 28.67px;
+      letter-spacing: 1.25px;
+      text-align: center; }
+  .wait__picture {
+    position: absolute;
+    top: -15px;
+    font-size: 50px;
+    color: #23c323; }
+    .wait__picture-bottom {
+      color: red; }
