@@ -627,7 +627,7 @@ ul {
     padding: 1.25rem 0rem; }
 
 .main {
-  background: url(../img/header/olesya.png) no-repeat right/contain;
+  background: url(./img/header/olesya.png) no-repeat right/contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -882,7 +882,7 @@ ul {
           left: -0.5rem; } }
 
 .banner__one {
-  background: url(../img/banner/1.png) no-repeat center/cover fixed;
+  background: url(./img/banner/1.png) no-repeat center/cover fixed;
   padding-top: 56%;
   position: relative; }
   @media screen and (max-width: 768px) {
